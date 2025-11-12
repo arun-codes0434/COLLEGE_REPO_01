@@ -1,6 +1,6 @@
 # <B>THIS REPO IS FOR COLLEGE PURPOSE<B>
 <br>
-<p>SUBJECT: Web Desogning 
+<p>SUBJECT_01: Web Designing 
   <br>
   AUTHOR: ARUNESH KUMAR PANDIT_0434
 <br>
