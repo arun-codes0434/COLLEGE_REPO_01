@@ -1,0 +1,19 @@
+body {
+    height: 100px;
+    width: 200px;
+    background-image:url(css_img_2.jpg);
+    background-size: cover;
+}
+h1 {
+    background-color: rgb(135, 138, 116);
+    color: rgb(176, 48, 48);
+}
+h2 {
+    columns: white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
