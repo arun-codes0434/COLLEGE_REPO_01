@@ -52,23 +52,19 @@ body {
     color: #7d250f;
     margin: 10px 0 20px 0;
 }
-
 .description {
     margin-bottom: 25px;
     color:black;
 }
-
 .features ul {
     list-style-type: none;
     margin: 0 0 25px 0;
     padding: 0;
 }
-
 .features li {
     padding: 5px 0;
     font-size: 1.1em;
 }
-
 .add-to-cart-btn, .buy-now-btn {
     background-color: #ffbd5a;
     color: #333;
@@ -82,26 +78,20 @@ body {
     border-radius: 4px;
     transition: background-color 0.3s;
 }
-
-
 .add-to-cart-btn:hover {
     background-color: #e68a00;
 }
-
 .buy-now-btn {
     background-color: #ef9c00;
     margin-bottom: 10px;
 }
-
 .buy-now-btn:hover {
     background-color: #db8a10;
 }
-
 .stock-info {
     color: green;
     font-weight: bold;
 }
-
 .main-footer {
     text-transform: capitalize;
     text-align: center;
