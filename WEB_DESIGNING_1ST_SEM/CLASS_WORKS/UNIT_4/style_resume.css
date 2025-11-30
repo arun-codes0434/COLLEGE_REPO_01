@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(179, 177, 177);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem 5rem;
+}
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.contact {
+    display: flex;
+    gap: 30rem;
+    background-color: rgb(111, 110, 110);
+    padding: 1rem 3rem;
+    padding-top: 2rem;
+    margin: 2rem 0rem;
+}
+section {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+    
+}
+.col h1 {
+    margin-bottom: 0;
+    color: black;
+}
+.col div > * {
+    margin-bottom: .5rem;
+}
+.col > div {
+    margin-bottom: 3rem;
+}
+.list
+{
+    display: flex;
+    flex-direction: column;
+}
+.tech h2 {
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: .7rem;
+}
+.tech p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.badges {
+    display: flex;
+    gap: 1rem;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+.badge {
+
+    background-color:rgb(125, 125, 125);
+    color: black;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    min-width: max-content;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr {
+    height: 4px;
+    background-color: rgb(5,5,5);
+    border-radius: 10px;
+}
+#name{
+    padding-top: 20px;
+    line-height: 0;
+    border: none;
+    justify-content: space-between;
+    display: flex;
+    text-align: right;
+    line-height: 0;
+    height: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#who {
+    margin-bottom: 10px;
+    text-align: right;
+}
+img {
+    padding-right: 0;
+    width: 100px;
+    margin-right: 0;
+    border-radius: 80%;
+}
+
