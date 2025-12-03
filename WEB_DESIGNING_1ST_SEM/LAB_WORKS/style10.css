@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    font-family: monospace;
+    border: border-box;
+}
+body {
+    margin: 0%;
+    background-image: url(back.png);
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 20px;
+}
+.right-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 28px;
+}
+.right-nav a:hover {
+    color: rgb(179, 179, 96);
+}
+.cart {
+    font-size: 40px;        
+    margin-right: 25px;     
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    cursor: pointer;
+}
+.cart:hover {
+    color: rgb(197, 197, 120);  
+    transform: scale(1.1);      
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-box input {
+    padding: 10px 15px;
+    width: 900px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.search-box button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(90, 90, 73);
+    color: rgb(233, 227, 227);
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background-color:rgb(70, 80, 44);
+}
+h1{
+    color:wheat;
+    text-align: center;
+}
+h2{ color: rgb(15, 16, 17);
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    color: rgb(24, 28, 31);
+    text-align: center;
+    padding-top: 10px;
+     
+}
+a{
+    text-decoration: none;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 14px 28px rgba(59, 58, 58, 0.16),0 10px 10px rgba(0,0,0,0.22);
+    transition: .2s;
+    background: rgb(61, 77, 57);
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(94, 87, 87, 0.16),0 3px 6px rgba(20, 20, 20, 0.23);
+    transform: translate(0px,-8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: rgb(20, 23, 26);
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(9, 10, 12);
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+.checked{
+    color: orange;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(20, 22, 24);
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.but-1{
+    background-color: rgb(196, 149, 63);
+}
+.but-2{
+     background-color: rgb(196, 149, 63);
+}
+.but-3{
+     background-color: rgb(196, 149, 63);
+}
+.but-4{
+     background-color: rgb(196, 149, 63);
+}
+.but-5{
+     background-color: rgb(196, 149, 63);
+}
+.but-6{
+     background-color: rgb(196, 149, 63);
+}
+.but-7{
+     background-color: rgb(196, 149, 63);
+}
+.but-8{
+     background-color: rgb(196, 149, 63);
+}.but-9{
+     background-color: rgb(196, 149, 63);
+}
+.foot{
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: rgb(90, 90, 73);
+}
+li a{
+    display: block;
+    color: rgb(233, 230, 230);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(70, 80, 44);
+    color: rgb(214, 210, 205);
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100px;
+    }
+}
