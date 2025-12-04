@@ -85,7 +85,7 @@ a{
     width: 20%;
     margin: 15px;
     box-sizing: border-box;
-    float: left;
+    /* float: left; */
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
@@ -165,16 +165,21 @@ button{
 }.but-9{
      background-color: rgb(196, 149, 63);
 }
+#last{
+    color: aliceblue;
+}
 .foot{
     color: aliceblue;
+}
+@media(max-width:750px){
+    .content{
+        margin: 15px 0;
+        /* flex-direction: column; */
+        width: 100%;
+    }
 }
 @media(max-width:1000px){
     .content{
         width: 45%;
-    }
-}
-@media(max-width:750px){
-    .content{
-        width: 100px;
     }
 }
