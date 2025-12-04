@@ -168,6 +168,9 @@ button{
 .foot{
     color: aliceblue;
 }
+#last{
+    color: aliceblue;
+}
 ul{
     list-style-type: none;
     margin: 0;
