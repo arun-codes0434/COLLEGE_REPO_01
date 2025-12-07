@@ -89,9 +89,7 @@ hr {
     border-radius: 10px;
 }
 #name{
-    padding-top: 20px;
     line-height: 0;
-    border: none;
     justify-content: space-between;
     display: flex;
     text-align: right;
@@ -105,9 +103,19 @@ hr {
     text-align: right;
 }
 img {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
     padding-right: 0;
     width: 100px;
     margin-right: 0;
     border-radius: 80%;
 }
-
+.a4 {
+    width: 210mm;
+    min-height: 297mm;
+    margin: auto;
+    background: rgb(206, 201, 201);
+    padding: 20mm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
