@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exact Grid Layout</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+
+    main {
+      width: 1200px;       
+      max-width: 95%;       
+      margin: 20px auto;
+      display: grid;
+      grid-template-rows: 100px 130px 100px 400px 80px;  
+      gap: 10px;
+    }
+
+    #logo, header, article, footer {
+      background: #ccc;
+      padding: 10px;
+      display: grid;
+      place-items: center;   
+      border-radius: 5px;
+    }
+    #box {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .boxes {
+      background: #999;
+      padding: 40px 0;
+      display: grid;
+      place-items: center;
+      border-radius: 5px;
+      height: 100%;       
+    }
+    @media (max-width: 900px) {
+      #box { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      #box { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="logo"><h2>Logo</h2></div>
+    <header><h2>Header</h2></header>
+    <article><h2>Text Area</h2></article>
+
+    <div id="box">
+      <div class="boxes"><h2>Box1</h2></div>
+      <div class="boxes"><h2>Box2</h2></div>
+      <div class="boxes"><h2>Box3</h2></div>
+    </div>
+
+    <footer><h2>Footer</h2></footer>
+  </main>
+</body>
+</html>
